@@ -1,0 +1,52 @@
+ <EventFile Repeat="Year">
+	<Variable Name="DayNumber" Select="86400"/>
+	
+	<!-- Built in Holidays. Add Inactive="true" to disable. -->
+	<Event TimeStamp="({$Easter:Stamp}-2*{$DayNumber})">Goede Vrijdag</Event>
+	<Event Month="{$Easter:Month}" Day="{$Easter:Day}">Eerste Paasdag</Event>
+	<Event TimeStamp="({$Easter:Stamp}+1*{$DayNumber})">Tweede Paasdag</Event>
+	<Event TimeStamp="({$Easter:Stamp}+39*{$DayNumber})">Hemelvaartsdag</Event>
+	<Event TimeStamp="({$Easter:Stamp}+49*{$DayNumber})">Eerste Pinksterdag</Event>
+	<Event TimeStamp="({$Easter:Stamp}+50*{$DayNumber})">Tweede Pinksterdag</Event>
+	
+	<!-- Normal Holidays -->
+	<Set Month="1">
+		<Event Day="1">Nieuwjaarsdag</Event>
+	</Set>
+	<Set Month="2">
+		<Event Day="14">Valentijnsdag</Event>
+	</Set>
+	<Set Month="3">
+		<Event Day="{$LastSun}">Zomertijd</Event>
+	</Set>
+	<Set Month="4">
+		<Event Day="1">1 April</Event>
+		<Event Day="27">Koningsdag</Event>
+	</Set>
+	<Set Month="5">
+		<Event Day="1">Dag van de Arbeid</Event>
+		<Event Day="4">Dodenherdenking</Event>
+		<Event Day="5">Bevrijdingsdag</Event>
+		<Event Day="{$SecondSun}">Moederdag</Event>
+	</Set>
+	<Set Month="6">
+		<Event Day="{$ThirdSun}">Vaderdag</Event>
+	</Set>
+	<Set Month="9">
+		<Event Day="{$ThirdTue}">Prinsjesdag</Event>
+	</Set>
+	<Set Month="10">
+		<Event Day="4">Dierendag</Event>
+		<Event Day="31">Halloween</Event>
+		<Event Day="{$LastSun}">Wintertijd</Event>
+	</Set>
+	<Set Month="11">
+		<Event Day="11">Sint-Maarten</Event>
+	</Set>
+	<Set Month="12">
+		<Event Day="5">Sinterklaasavond</Event>
+		<Event Day="25">Eerste Kerstdag</Event>
+		<Event Day="26">Tweede Kerstdag</Event>
+		<Event Day="31">Oudejaarsdag</Event>
+	</Set>
+</EventFile>
