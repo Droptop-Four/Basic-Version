@@ -1,0 +1,53 @@
+ <!-- Event File v6.0 -->
+ 
+ <EventFile Repeat="Year">
+	<Variable Name="DayNumber" Select="86400"/>
+	
+	<!-- Built in Holidays. Add Inactive="true" to disable. -->
+	
+	<!-- Normal Holidays -->
+	<Set Month="1">
+		<Event Day="1">Jour de l’an</Event>
+		<Event Day="6">Épiphanie</Event>
+	</Set>
+	<Set Month="2">
+		<Event Day="14">Saint Valentin</Event>
+	</Set>
+	<Event Day="{$FirstSun}">Fête des Grands-Mères</Event>
+	<Event Month="3" Day="8">Journée de la Femme</Event>
+	<Event Month="3" Day="17">Saint-Patrick</Event>
+	<Set Month="4">
+		<Event Day="1">1er avril</Event>
+	</Set>
+	<Set Month="5">
+		<Event Day="1">Fête du travail</Event>
+		<Event Day="{$LastFri}">Fête des Voisins</Event>
+		<Event Day="{$LastSun}">Fête des Mères</Event>
+	</Set>
+	<Set Month="6">
+		<Event Day="21">Fête de la Musique</Event>
+		<Event Day="2">Fête de la Saint Jean</Event>
+		<Event Day="{$ThirdSun}">Fête des Pères</Event>
+	</Set>
+	<Event Month="7" Day="14">Fête Nationale</Event>
+	<Set Month="8">
+		<Event Day="15">Assomption</Event>
+
+	</Set>
+	<Set Month="10">
+		<Event Day="{$FirstMon}">Fête des Grands-Pères</Event>
+		<Event Day="31">Halloween</Event>
+	</Set>
+	<Set Month="11">
+		<Event Day="1">Toussaint</Event>
+		<Event Day="11">Armistice de 14-18</Event>
+		<Event Day="25">Sainte Catherine</Event>
+		<Event Day="{$FourthThu}">Thanksgiving</Event>
+	</Set>
+	<Set Month="12">
+		<Event Day="6">Saint Nicolas</Event>
+		<Event Day="24">Réveillon de Noël</Event>
+		<Event Day="25">Noël</Event>
+		<Event Day="31">Saint Sylvestre</Event>
+	</Set>
+</EventFile>

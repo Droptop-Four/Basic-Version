@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellLib", "ShellBasics\ShellLib.csproj", "{B748E75E-AFF9-4FEA-8581-7F04AD5DA539}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroptopRainmeter", "WinTester3\DroptopRainmeter.csproj", "{B100D817-BCCA-4DDE-ADC7-04D9E7681B34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B748E75E-AFF9-4FEA-8581-7F04AD5DA539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B748E75E-AFF9-4FEA-8581-7F04AD5DA539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B748E75E-AFF9-4FEA-8581-7F04AD5DA539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B748E75E-AFF9-4FEA-8581-7F04AD5DA539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B100D817-BCCA-4DDE-ADC7-04D9E7681B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B100D817-BCCA-4DDE-ADC7-04D9E7681B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B100D817-BCCA-4DDE-ADC7-04D9E7681B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B100D817-BCCA-4DDE-ADC7-04D9E7681B34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {661051C3-07EE-4172-BF5E-05B9C2E38462}
+	EndGlobalSection
+EndGlobal

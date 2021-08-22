@@ -1,0 +1,69 @@
+ <!-- Event File v6.0 -->
+ 
+ <EventFile Repeat="Year">
+	<Variable Name="DayNumber" Select="86400"/>
+	
+	<!-- Built in Holidays. Add Inactive="true" to disable. -->
+	<Event Month="{$Easter:Month}" Day="{$Easter:Day}">Domenica di Pasqua</Event>
+	<Event TimeStamp="({$Easter:Stamp}-46*{$DayNumber})">Mercoledì delle Ceneri</Event>
+	
+	<!-- Normal Holidays -->
+	<Set Month="1">
+		<Event Day="1">Capodanno</Event>
+		<Event Day="6">Epifania</Event>
+		<Event Day="7">Giornata della Bandiera</Event>
+		<Event Day="27">Giornata della Memoria</Event>
+	</Set>
+	
+	<Set Month="2">
+		<Event Day="10">Giorno del Ricordo</Event>
+		<Event Day="14">San Valentino</Event>
+	</Set>
+	
+	<Set Month="3">
+	</Set>
+	
+	<Set Month="4">
+		<Event Day="1">Pesce d'Aprile</Event>
+		<Event Day="{$Easter:Day}+1">Pasquetta</Event>
+		<Event Day="22">Giornata della Terra</Event>
+		<Event Day="25">Festa della Liberazione</Event>
+	</Set>
+	
+	<Set Month="5">
+		<Event Day="1">Festa del Lavoro</Event>
+	</Set>
+	
+	<Set Month="6">
+		<Event Day="2">Festa della Repubblica Italiana</Event>
+	</Set>
+	
+	<Set Month="7">
+	</Set>
+	
+	<Set Month="8">
+		<Event Day="15">Ferragosto</Event>
+		<Event Day="15">Assunzione</Event>
+	</Set>
+	
+	<Set Month="9">
+	</Set>
+	
+	<Set Month="10">
+		<Event Day="31">Halloween</Event>
+	</Set>
+	
+	<Set Month="11">
+		<Event Day="1">Tutti i Santi</Event>
+		<Event Day="4">Festa dell'Unità</Event>
+	</Set>
+	
+	<Set Month="12">
+		<Event Day="8">Immacolata</Event>
+		<Event Day="21">Solstizio d'Inverno</Event>
+		<Event Day="24">Vigilia di Natale</Event>
+		<Event Day="25">Natale</Event>
+		<Event Day="26">Santo Stefano</Event>
+		<Event Day="31">Vigilia di Capodanno</Event>
+	</Set>
+</EventFile>

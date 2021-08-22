@@ -1,0 +1,44 @@
+ <!-- Event File v6.0 -->
+ 
+ <EventFile Repeat="Year">
+	<Variable Name="DayNumber" Select="86400"/>
+	
+	<!-- Built in Holidays. Add Inactive="true" to disable. -->
+
+	
+	<!-- Normal Holidays -->
+	<Set Month="1">
+		<Event Day="1">元旦</Event>
+		<Event Day="{$SecondMon}">成人の日</Event>
+	</Set>
+	<Set Month="2">
+　　　　　　　　<Event Day="11">建国記念の日</Event>
+		<Event Day="23">天皇誕生日</Event>	
+	</Set>
+	<Event Month="3" Day="20">春分の日</Event>
+	<Set Month="4">
+		<Event Day="29">昭和の日</Event>	
+	</Set>
+	<Set Month="5">
+		<Event Day="3">憲法記念日</Event>
+		<Event Day="4">みどりの日</Event>
+		<Event Day="5">こどもの日</Event>
+	</Set>
+	<Set Month="6">
+	</Set>
+	<Event Month="7" Day="[$ThirdMon]">海の日</Event>
+	<Event Month="8" Day="11">山の日</Event>
+	<Set Month="9">
+		<Event Day="[$ThirdMon]">敬老の日</Event>
+		<Event Day="23">秋分の日</Event>	
+	</Set>
+	<Set Month="10">
+		<Event Day="[$SecondMon]">スポーツの日</Event>	
+	</Set>
+	<Set Month="11">
+		<Event Day="3">文化の日</Event>	
+	</Set>
+	<Set Month="12">
+		<Event Day="23">勤労感謝の日</Event>
+	</Set>
+</EventFile>
