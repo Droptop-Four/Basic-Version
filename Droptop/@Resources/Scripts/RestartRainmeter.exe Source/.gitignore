@@ -1,9 +1,0 @@
-*.exe
-*.zip
-*.patch
-*.user
-/.vs
-x32*
-x64*
-obj
-Certificate.bat

@@ -67,12 +67,34 @@ MeterStyle=ArrowStyle | DisabledApp
 ;---
 
 [14]
-MeterStyle=InfoStyle | DisabledApp
+MeterStyle=InfoStyle
 
 [14Icon]
-MeterStyle=IconStyle | DisabledApp
+MeterStyle=IconStyle
 
 [14Arrow]
+MeterStyle=ArrowStyle
+
+;---
+
+[15]
+MeterStyle=InfoStyle | DisabledApp
+
+[15Icon]
+MeterStyle=IconStyle | DisabledApp
+
+[15Arrow]
+MeterStyle=ArrowStyle | DisabledApp
+
+;---
+
+[16]
+MeterStyle=InfoStyle | DisabledApp
+
+[16Icon]
+MeterStyle=IconStyle | DisabledApp
+
+[16Arrow]
 MeterStyle=ArrowStyle | DisabledApp
 
 ;---
@@ -101,11 +123,73 @@ MeterStyle=ArrowStyle | DisabledApp
 
 [18]
 MeterStyle=InfoStyle | DisabledApp
+Hidden=1
 
 [18Icon]
 MeterStyle=IconStyle | DisabledApp
+ImageName=
+Hidden=1
 
 [18Arrow]
 MeterStyle=ArrowStyle | DisabledApp
+Hidden=1
 
 ;---
+
+[19]
+MeterStyle=InfoStyle | DisabledApp
+Hidden=1
+
+[19Icon]
+MeterStyle=IconStyle | DisabledApp
+ImageName=
+Hidden=1
+
+[19Arrow]
+MeterStyle=ArrowStyle | DisabledApp
+Hidden=1
+
+;---
+
+[20]
+MeterStyle=InfoStyle | DisabledApp
+Hidden=1
+
+[20Icon]
+MeterStyle=IconStyle | DisabledApp
+ImageName=
+Hidden=1
+
+[20Arrow]
+MeterStyle=ArrowStyle | DisabledApp
+Hidden=1
+
+;---
+
+[21]
+MeterStyle=InfoStyle | DisabledApp
+Hidden=1
+
+[21Icon]
+MeterStyle=IconStyle | DisabledApp
+ImageName=
+Hidden=1
+
+[21Arrow]
+MeterStyle=ArrowStyle | DisabledApp
+Hidden=1
+
+;---
+
+[22]
+MeterStyle=InfoStyle | DisabledApp
+Hidden=1
+
+[22Icon]
+MeterStyle=IconStyle | DisabledApp
+ImageName=
+Hidden=1
+
+[22Arrow]
+MeterStyle=ArrowStyle | DisabledApp
+Hidden=1

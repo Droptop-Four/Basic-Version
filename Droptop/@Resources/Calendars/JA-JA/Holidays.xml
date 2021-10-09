@@ -7,38 +7,54 @@
 
 	
 	<!-- Normal Holidays -->
-	<Set Month="1">
-		<Event Day="1">元旦</Event>
-		<Event Day="{$SecondMon}">成人の日</Event>
+<Set Month="1">
+		<Event Day="1" Description="元日" />
+		<Event Day="1={$FirstSun} ? 2 : 0" Description="振替休日" />
+		<Event Day="{$SecondMon}" Description="成人の日" />
 	</Set>
 	<Set Month="2">
-　　　　　　　　<Event Day="11">建国記念の日</Event>
-		<Event Day="23">天皇誕生日</Event>	
+		<Event Day="11" Description="建国記念の日" />
+		<Event Day="11={$SecondSun} ? 12 : 0" Description="振替休日" />
+		<Event Day="23" Description="天皇誕生日" />
+		<Event Day="23={$FourthSun} ? 24 : 0" Description="振替休日" />
 	</Set>
-	<Event Month="3" Day="20">春分の日</Event>
+	<Set Month="3">
+		<!-- 春分の日(ビルトイン変数版) CScript.luaに関数の追加が必要です -->
+		<Event Day="{$Shunbun:Day}" Description="春分の日" />
+		<Event Day="{$Shunbun:Day}={$ThirdSun} ? {$Shunbun:Day}+1 : 0" Description="振替休日" />
+	</Set>
 	<Set Month="4">
-		<Event Day="29">昭和の日</Event>	
+		<Event Day="29" Description="昭和の日" />
+		<Event Day="29={$LastSun} ? 30 : 0" Description="振替休日" />
 	</Set>
 	<Set Month="5">
-		<Event Day="3">憲法記念日</Event>
-		<Event Day="4">みどりの日</Event>
-		<Event Day="5">こどもの日</Event>
+		<Event Day="3" Description="憲法記念日" />
+		<Event Day="4" Description="みどりの日" />
+		<Event Day="5" Description="こどもの日" />
+		<Event Day="(3={$FirstSun}) || (4={$FirstSun}) || (5={$FirstSun}) ? 6 : 0" Description="振替休日" />
 	</Set>
-	<Set Month="6">
+	<Set Month="7">
+		<Event Day="2020={$Year} ? 23 : {$ThirdMon}" Description="海の日" />
+		<Event Day="2020={$Year} ? 24 : 0" Description="スポーツの日" />
 	</Set>
-	<Event Month="7" Day="[$ThirdMon]">海の日</Event>
-	<Event Month="8" Day="11">山の日</Event>
+	<Set Month="8">
+		<Event Day="8" Description="山の日" />
+		<Event Day="8={$SecondSun} ? 9 : 0" Description="振替休日" />
+	</Set>
 	<Set Month="9">
-		<Event Day="[$ThirdMon]">敬老の日</Event>
-		<Event Day="23">秋分の日</Event>	
+		<Event Day="{$ThirdMon}" Description="敬老の日" />
+		<!-- 秋分の日(ビルトイン変数版) CScript.luaに関数の追加が必要です -->
+		<Event Day="{$Shuubun:Day}" Description="秋分の日" />
+		<Event Day="{$Shuubun:Day}={$FourthSun} ? {$Shuubun:Day}+1 : 0" Description="振替休日" />
+		<!-- 国民の休日 -->
+		<Event Day="{$Shuubun:Day}={$FourthWed} ? {$Shuubun:Day}-1 : 0" Description="国民の休日" />
 	</Set>
 	<Set Month="10">
-		<Event Day="[$SecondMon]">スポーツの日</Event>	
 	</Set>
 	<Set Month="11">
-		<Event Day="3">文化の日</Event>	
-	</Set>
-	<Set Month="12">
-		<Event Day="23">勤労感謝の日</Event>
+		<Event Day="3" Description="文化の日" />
+		<Event Day="3={$FirstSun} ? 4 : 0" Description="振替休日" />
+		<Event Day="23" Description="勤労感謝の日" />
+		<Event Day="23={$FourthSun} ? 24 : 0" Description="振替休日" />
 	</Set>
 </EventFile>

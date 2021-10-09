@@ -76,35 +76,6 @@ ren "Uninstall a program.url" %control10%.url
 ren "User accounts.lnk" %control11%.lnk
 
 cd ..
-cd "ControlWin7\Advanced controls"
-
-ren "Command prompt.lnk" %advancedseven1%.lnk
-ren "Device manager.lnk" %advancedseven2%.lnk
-ren "Disk cleanup.lnk" %advancedseven3%.lnk
-ren "Disk management.lnk" %advancedseven4%.lnk
-ren "Registry editor.lnk" %advancedseven5%.lnk
-ren "Resource monitor.lnk" %advancedseven6%.lnk
-ren "Storage spaces.lnk" %advancedseven7%.lnk
-ren "System configuration.lnk" %advancedseven8%.lnk
-ren "Windows firewall.lnk" %advancedseven9%.lnk
-ren "Windows PowerShell.lnk" %advancedseven10%.lnk
-ren "Windows services.lnk" %advancedseven11%.lnk
-
-cd ..
-
-ren "Advanced controls" %controlsevenfol1%
-ren "Desktop background.lnk" %controlseven1%.lnk
-ren "Display settings.lnk" %controlseven2%.lnk
-ren "Magnify.lnk" %controlseven3%.lnk
-ren "On-screen keyboard.lnk" %controlseven4%.lnk
-ren "Power options.lnk" %controlseven5%.lnk
-ren "Recycle bin.lnk" %controlseven6%.lnk
-ren "Switch display.lnk" %controlseven7%.lnk
-ren "System information.lnk" %controlseven8%.lnk
-ren "Uninstall a program.lnk" %controlseven9%.lnk
-ren "User accounts.lnk" %controlseven10%.lnk
-
-cd ..
 cd "Games\Campaign"
 
 ren "Action" %gamescamfol1%
