@@ -244,7 +244,7 @@ FontName70=FF DIN Round Pro
 FontName71=#DefaultFont#
 TopBarFontName7=[#FontName[#ThemeNum][#AltFont[#LanguageNum]]]
 
-IconStyle7=3
+IconStyle7=1
 
 NewDesktopStyle7=#IconStyle7#
 ActionStyle7=#IconStyle7#
