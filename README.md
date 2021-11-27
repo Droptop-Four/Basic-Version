@@ -5,11 +5,10 @@
 <br />
 <p align="center">
     <a href="https://droptopfour.com">
-        <img src="https://user-images.githubusercontent.com/66331265/137930050-7ec89c91-03e6-4c2d-a689-d37147df7eab.png"
+        <img src="https://user-images.githubusercontent.com/66331265/143691346-2bae57ca-c7db-4092-86df-4f0ca20f7eaf.png"
             alt="Logo"  style='height: 100%; width: 100%; object-fit: contain'>
     </a>
 </p>
-
 
 <!-- TITLE -->
 <h1 align="center">DROPTOP FOUR BASE VERSION</h1>
