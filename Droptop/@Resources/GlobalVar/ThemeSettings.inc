@@ -688,7 +688,7 @@ FontName190=Nineteen Eighty Seven
 FontName191=#DefaultFont#
 TopBarFontName19=[#FontName[#ThemeNum][#AltFont[#LanguageNum]]]
 
-IconStyle19=1
+IconStyle19=3
 
 NewDesktopStyle19=#IconStyle19#
 ActionStyle19=#IconStyle19#
