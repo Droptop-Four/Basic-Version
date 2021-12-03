@@ -51,6 +51,11 @@ OpenCortana11:
  }
 ExitApp
 
+QuickSettings:
+ SetStoreCapsLockMode, Off
+ Send, #a
+ExitApp
+
 AppSwitcher:
  SetStoreCapsLockMode, Off
  Send, ^!{Tab}
