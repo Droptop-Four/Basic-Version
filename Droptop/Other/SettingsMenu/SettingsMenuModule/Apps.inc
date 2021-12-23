@@ -33,48 +33,47 @@ MeterStyle=ArrowStyle | DisabledApp
 
 ;---
 
-[6]
+[3]
 MeterStyle=InfoStyle | DisabledApp
 
-[6Icon]
+[3Icon]
 MeterStyle=IconStyle | DisabledApp
 
-[6Arrow]
+[3Arrow]
 MeterStyle=ArrowStyle | DisabledApp
 
 ;---
 
-[9]
+[4]
 MeterStyle=InfoStyle | DisabledApp
 
-[9Icon]
+[4Icon]
 MeterStyle=IconStyle | DisabledApp
 
-[9Arrow]
+[4Arrow]
 MeterStyle=ArrowStyle | DisabledApp
 
 ;---
 
-[13]
+[7]
 MeterStyle=InfoStyle | DisabledApp
 
-[13Icon]
+[7Icon]
 MeterStyle=IconStyle | DisabledApp
 
-[13Arrow]
+[7Arrow]
 MeterStyle=ArrowStyle | DisabledApp
 
 ;---
 
-[14]
-MeterStyle=InfoStyle
+[12]
+MeterStyle=InfoStyle | DisabledApp
 
-[14Icon]
-MeterStyle=IconStyle
+[12Icon]
+MeterStyle=IconStyle | DisabledApp
 
-[14Arrow]
-MeterStyle=ArrowStyle
-
+[12Arrow]
+MeterStyle=ArrowStyle | DisabledApp
 ;---
 
 [15]
@@ -88,36 +87,18 @@ MeterStyle=ArrowStyle | DisabledApp
 
 ;---
 
-[16]
-MeterStyle=InfoStyle | DisabledApp
-
-[16Icon]
-MeterStyle=IconStyle | DisabledApp
-
-[16Arrow]
-MeterStyle=ArrowStyle | DisabledApp
-
-;---
-
-[16]
-MeterStyle=InfoStyle | DisabledApp
-
-[16Icon]
-MeterStyle=IconStyle | DisabledApp
-
-[16Arrow]
-MeterStyle=ArrowStyle | DisabledApp
-
-;---
-
 [17]
 MeterStyle=InfoStyle | DisabledApp
+Hidden=1
 
 [17Icon]
 MeterStyle=IconStyle | DisabledApp
+ImageName=
+Hidden=1
 
 [17Arrow]
 MeterStyle=ArrowStyle | DisabledApp
+Hidden=1
 
 ;---
 

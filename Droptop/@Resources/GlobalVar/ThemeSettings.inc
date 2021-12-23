@@ -165,7 +165,7 @@ FontSizeOffset5=0
 IconSizeOffset5=0
 TitleSpaOffset5=0
 
-FontName50=FF DIN Round Pro
+FontName50=Open Sans
 
 FontName51=#DefaultFont#
 TopBarFontName5=[#FontName[#ThemeNum][#AltFont[#LanguageNum]]]
