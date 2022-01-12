@@ -13,6 +13,12 @@
 <!-- TITLE -->
 <h1 align="center">DROPTOP FOUR BASE VERSION</h1>
 
+<!-- DROPTOP SITE -->
+<p align="center">
+    <a href="https://droptopfour.com"><img
+            src="https://img.shields.io/static/v1?label=Droptop+Four&message=Website&color=50AE5C&style=for-the-badge" alt="Droptop Four Website"></a>
+</p>
+
 <!-- INTRO -->
 <p align="center">
     <b>This is the Core of Droptop, that is required to be installed before any other update or upgrade (eg. required to be installed prior to the Supporter Version or an update file).<br><br>
