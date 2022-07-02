@@ -77,7 +77,7 @@ This code of conduct and its related procedures also applies to unacceptable beh
 
 ## 10. Contact info
 
-To contuct us is preferably to use the [Discord server](https://discord.gg/aGQ6uE4Fgp) of the Droptop Four community.
+To contact us is preferably to use the [Discord server](https://discord.gg/aGQ6uE4Fgp) of the Droptop Four community.
 
 ## 11. License and attribution
 
